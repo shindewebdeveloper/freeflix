@@ -1,0 +1,173 @@
+/* Header Content*/
+
+.clearfix:after{
+	content:"";
+	display: table;
+	clear: both;
+}
+.headercontainer{
+	background: url("https://images.unsplash.com/12/gladiator.jpg") no-repeat;
+	padding: 5px;
+	background-size: cover;
+	background-position: 30% 30%;
+}
+
+.headercontainer ul{
+	margin: 0px;
+}
+.headercontainer li{
+	list-style-type: none;
+	float: left;
+	padding: 13px;
+	color: white;
+
+}
+.navbar-brand{
+	width: 50px;
+	height: 15px;
+}
+.navbar-brand img {
+	width: 100%;
+}
+.hero_content{
+	color: white;
+	margin-left: 130px;
+	margin-right: auto;
+	margin-bottom: 58px;
+	margin-top: 108px;
+	font-family: 'Raleway', sans-serif;
+
+}
+.hero_content .btncontainer button{
+	padding: 5px 70px;
+	border: none;
+	color: white;
+	border-radius: 3px
+
+}
+.hero_content .btncontainer button:first-of-type {
+	background-color: red;
+}
+.hero_content .btncontainer button:last-of-type {
+	background-color: grey;
+}
+
+/* Main Content */
+
+.maincontent{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 40px;
+	
+}
+
+.filtercontent{
+	width: 20%;
+	float: left;
+	border: 1px solid #ddd;
+
+	
+}
+
+.videocontainer{
+	width: 74%;
+	float: right;
+
+}
+.filtercontent:hover{
+	box-shadow: 0 0 10px 5px rgba(39,43,55,0.15);
+}
+.filtercontent h2{
+	text-align: center;
+}
+
+.filter_list{
+	font-family: 'Raleway', sans-serif;
+	margin:0px;
+	padding: 0px;  
+}
+
+.filter_list li{
+	list-style-type: none;
+	padding: 20px;
+	text-align: center;
+
+}
+
+.filter_list li.active{
+	color: red;
+}
+
+
+.videosearch input{
+	width: 95%;
+	padding: 3px 6px ;
+	border:1px solid #ddd;
+	border-radius: 3px;
+}
+.video_list-item{
+	width: 48%;
+	float: left;
+	margin-right: 1%;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+
+}
+.vdobtncontainer{
+	margin-bottom: 9px;
+	margin-left: 5px;
+	border-radius: 3px;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+
+}
+.vdobtncontainer button{
+	width: 40%
+}
+.vdobtncontainer button:first-of-type{
+	background-color: red;
+
+}
+
+@media screen and (max-width: 750px){
+	.filtercontent{
+		display: none;
+	}
+
+	.videocontainer{
+		width: 100%;
+		float: none;
+	}
+
+	.vdobtncontainer button{
+		width: 40%;
+	}
+
+}
+.SGames{
+	height: 10%;
+}
+@media screen and (max-width: 560px){
+	.filtercontent{
+		display: none;
+	}
+
+	.videocontainer{
+		width: 100%;
+		float: none;
+	}
+	.video_list-item{
+		width: 80%;
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 30px;	
+	}
+	.vdobtncontainer button{
+		width: 111px;
+	}
+
+}
